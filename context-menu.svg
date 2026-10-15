@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="385" viewBox="0 0 340 385" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Menu frame (Windows 11 dark, "Show more options" menu) -->
+  <rect x="16" y="16" width="300" height="345" rx="8" fill="#2B2B2B" stroke="#454545" filter="url(#shadow)"/>
+
+  <!-- Highlighted item: Open in Sourcetree -->
+  <rect x="20" y="209" width="292" height="22" rx="4" fill="#3D3D3D"/>
+
+  <!-- Icons -->
+  <g fill="none" stroke="#CCCCCC" stroke-width="1.2">
+    <rect x="29.5" y="190.5" width="14" height="11" rx="1.5"/>
+    <path d="M32.5 194 L35 196 L32.5 198"/>
+    <line x1="36.5" y1="198.5" x2="40" y2="198.5"/>
+  </g>
+  <image x="28.5" y="212" width="16" height="16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASdSURBVFhH7ZNrTFtlHMb/4HUuZsRoHJ+IfjB+QBMzo8aYMBN04Bz2Rm9QKGxonJnLonFZdIKJGj8QE0mMokETo0skU2O2scFcoi5iBggOB6VSCoxbKS2FUkp76OEx/7ctl55Ttm6LiYlP8st5857n/zwv7ylE/ysTPXF5C1VKO8gWrabK6PtUtfypgNdiT9ohPDdcWm8uVUivU1Wsk+xymPYCtA8Qz/Vrfsce9vLM9as2m8pDdqqUB6kaENhlkH05DXLcw/AMz3LGNanEcSdVhD8ju7xCVSvIqoxmBM+IWc7grIzEA+Xh7+J/SRRUsQSqiGTIUnyWMzjrqg9RUHszWec/pyokisPq2MIcHIfXqe9XWYLI4kzOvqKsPjvZJZBtEVQeUse4ACoLIadmEXe9lPAl9sim4ucszuTsTbWrK5fKgm6qXAKVB5VYg8i2BfFK4xLO9cYwNiNjclbG744Y3vw6gm37FkBmlTmGMzmbO9LKOP2G+G7lc0osc7i7Jogz3RLSqcsVw0OHgiCTyjzD2dyhqoe/2kpmf4+4wrLARqwBZFkDONGRvjypblcMOdUBkCUlg+Fs7uAuhUr6HifLbITKZkFW/0YMPljrg5BXNpb5F2RMB+SNmwDe/mYRpPcpczibO7hLIY3r5fh39ioxeHHsl/CGktbuKB7Y70NuzQya2sKILq8gIslYjq3gfL+ELMsMyKKSxR3cpVDpaD3Z5kGW6QSe+NPsEVxwrl0/lz152A/STYGMHuTs9aLHLWHMFxN0DkrIqfaCTJyRAnfoR+tT64kMI01UHgCZp5SYJtHuiK4eQIqt4JlaH6hkEqSfRO6L02i7GMGFQQkdLgknuyK4w+4BmVSyuIO7FNK7v6AyP8g0kWBy7akdR1NbaPUArD/dEp6v8+GRQ9M4emweP3aF8X1HGCf+WMJ7x4MgYzIjBf4dcJdCOseHVOYDmcaU6MZQVOsVV79eyzIQisg474ii4UwQH7cG0XguhJ1HvSC9Sg7DHdyl0HOdB8T3No6qoxtFY0twwwGSmgrIqGuewzvH52D7yIcsk8p8Eu7gLoUKzz5FpSPRuHFYiWEYN5lG8MnJecVNeAIxHPzSj+J3Pci2jgqvYl4wCtHBXQrdf3gbaRyXyDwGKnWrY3CDtEMoemsCzvG1/4oRr4T8A5dB+qG4R/iHlPOcrXVcEl2q2vVbHZnHQQYO2oQ9gzjVufajdE5IuNU8BNK7QAaGfcnnOjibO9LqsYb7SNs3Lq5L/3d6NE781LO4eoBhj4StVhdIp+JNwpmczR2bqvD0QXFavROkH1BHM4DGlllR7J6S0NIZxC1GJ0in4hU44zfA2VdUXt7tVPzrt/zNsnQOkK5flexSB26zDAh4TVqlhxEZ/P05k7OvSvmv3ku729vEqTlI26eOJkHqfhKe5QzO4syMlLd/OxX93Lx27X9lRnKOMzjrGrWFdv7wGu3pmogH9oM0vSDNxTT0xj3s5Rme5YzrVv6RB+npUx/Q7nYHvdAtxUscKfRDvGMPe3nmhuuegu30aEMxFTQfocLWRnr2bLOA17zH79jzLyorwX9X/wC7ewdIsxNVLAAAAABJRU5ErkJggg=="/>
+
+  <!-- Labels -->
+  <g fill="#FFFFFF">
+    <text x="56" y="39">View</text>
+    <text x="56" y="63">Sort by</text>
+    <text x="56" y="87">Group by</text>
+    <text x="56" y="111">Refresh</text>
+    <text x="56" y="144">Customize this folder...</text>
+    <text x="56" y="201">Open in Terminal</text>
+    <text x="56" y="225">Open in Sourcetree</text>
+    <text x="56" y="249">Undo Rename</text>
+    <text x="56" y="282">Give access to</text>
+    <text x="56" y="315">New</text>
+    <text x="56" y="348">Properties</text>
+  </g>
+  <text x="56" y="177" fill="#787878">Paste</text>
+  <text x="300" y="249" fill="#CCCCCC" text-anchor="end">Ctrl+Z</text>
+
+  <!-- Submenu arrows -->
+  <g fill="none" stroke="#CCCCCC" stroke-width="1.2">
+    <path d="M297 30 L301 34 L297 38"/>
+    <path d="M297 54 L301 58 L297 62"/>
+    <path d="M297 78 L301 82 L297 86"/>
+    <path d="M297 273 L301 277 L297 281"/>
+    <path d="M297 306 L301 310 L297 314"/>
+  </g>
+
+  <!-- Separators -->
+  <g stroke="#454545">
+    <line x1="20" y1="122.5" x2="312" y2="122.5"/>
+    <line x1="20" y1="155.5" x2="312" y2="155.5"/>
+    <line x1="20" y1="260.5" x2="312" y2="260.5"/>
+    <line x1="20" y1="293.5" x2="312" y2="293.5"/>
+    <line x1="20" y1="326.5" x2="312" y2="326.5"/>
+  </g>
+
+  <!-- Mouse cursor -->
+  <path d="M196 216 L196 233 L200 229 L203 236 L205.5 235 L202.5 228 L208 228 Z" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-linejoin="round"/>
+</svg>
